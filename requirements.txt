@@ -1,0 +1,21 @@
+
+# Web Framework
+fastapi
+uvicorn
+
+# Database / ORM
+sqlalchemy
+asyncpg
+alembic
+
+# Redis / Task Queue
+redis
+
+# Observability / Metrics
+prometheus-client
+python-json-logger
+
+# Environment / Configuration
+pydantic-settings
+python-dotenv
+
