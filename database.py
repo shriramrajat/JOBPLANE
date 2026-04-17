@@ -6,7 +6,7 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 # You shouldn't hardcode this if you actually plan to run a distributed system.
 DATABASE_URL = os.getenv(
     "DATABASE_URL", 
-    "postgresql+asyncpg://postgres:postgres@localhost:5432/jobplane"
+    "postgresql+asyncpg://postgres:NewStrongPassword123@localhost:5432/jobplane"
 )
 
 # create_async_engine handles the connection pool under the hood.
