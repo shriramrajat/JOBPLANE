@@ -4,7 +4,7 @@ from datetime import datetime
 from sqlalchemy import Column, String, Integer, Text, DateTime, Enum
 from sqlalchemy.dialects.postgresql import UUID, JSONB
 from sqlalchemy.sql import func
-from .database import Base
+from database import Base
 
 class JobStatus(str, enum.Enum):
     QUEUED = "queued"
